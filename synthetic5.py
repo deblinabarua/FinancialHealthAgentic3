@@ -2675,15 +2675,7 @@ sector_config = {
     }
 }
 
-'''
-sectors = list(sector_config.keys())
-weights = [sector_config[s]["category_weight"] for s in sectors]
 
-print(weights)
-print("Sum =", sum(weights))
-print("Num sectors =", len(sectors))
-print("Num weights =", len(weights))
-'''
 # ------------------------------------------------------------
 # 1. Business-level sampling
 # ------------------------------------------------------------
